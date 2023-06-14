@@ -1,7 +1,7 @@
 <?php include 'includes/header.php'; ?>
 <div class="row">
     <?php include 'includes/sidebar.php'; ?>
-    <div class="content col-8 mt-5">
+    <div class="content col-8 mt-3">
         <div class="card mt-2" style="border-radius: 15px;">
             <div class="card-body p-4">
                 <div class="d-flex text-black">
