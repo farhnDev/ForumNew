@@ -1,0 +1,308 @@
+:root {
+  --blue2: #041ec5;
+  --blue0: #8d9cfb;
+  --blue: #2a2185;
+  --blue1: #efeef9;
+  --white: #fff;
+  --gray: #f5f5f5;
+  --black0: #222;
+  --black1: #e4e4e4;
+  --ungu: #cccaca;
+}
+
+nav {
+  background-color: #ffff;
+  box-shadow: 0 4px 8px 0 rgb(243, 243, 243);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo img {
+  height: 40px;
+  margin-left: 5vh;
+}
+
+.search {
+  position: relative;
+  width: 400px;
+  margin: 0 10px;
+}
+
+.search label {
+  position: relative;
+  width: 100%;
+}
+
+.search label input {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  padding: 5px 20px;
+  padding-left: 35px;
+  font-size: 18px;
+  border: none;
+  background-color: #f3f3f3;
+}
+
+.search label ion-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.2rem;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+i {
+  font-size: 20px;
+}
+
+.notification {
+  position: relative;
+  margin-right: 10px;
+}
+
+.sidebar {
+  background-color: #ffff;
+  padding-left: 20px;
+  margin-top: 5px;
+  position: sticky;
+  top: 5rem;
+}
+
+.sidebar-kanan {
+  background-color: #ffff;
+  margin-top: 5px;
+  position: sticky;
+  /* top: 5rem; */
+}
+
+.title {
+  margin-top: 0;
+  text-align: center;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.menu-list div {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-item i {
+  margin-right: 10px;
+}
+
+.menu-list div:hover {
+  background-color: rgb(184, 193, 239);
+  box-shadow: -10px 0px 0px 0px rgb(61, 90, 241);
+}
+
+
+.cardBox .card1 {
+  position: relative;
+  background-color: var(--white);
+  margin: 30px;
+  padding: 30px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 0 1px 9px rgb(0, 0, 0.08);
+
+}
+
+.userBox {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.userBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardBox .card1 .cardName {
+  text-align: center;
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+
+.cardBox .card1 .iconBox {
+  font-size: 1.3rem;
+  position: relative;
+  top: 100%;
+  right: 50px;
+  display: flex;
+}
+
+/* isi card  */
+.pertanyaan {
+  padding: 10px;
+  font-size: 12px;
+  border-bottom: 1px solid #000;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.jumlah {
+  font-size: 12px;
+}
+
+.profile img {
+  width: 10%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* tambah_komentar */
+.editor-toolbar {
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
+.editor-content {
+  min-height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* exployer card */
+.explore-content .row {
+  display: flex;
+}
+
+/* Kategori */
+
+.container .row {
+  display: flex;
+  float: right;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.category-card {
+  /* border-radius: 10%; */
+  padding: 0;
+  width: 100px;
+  position: relative;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.category-card img {
+  width: 100px;
+  height: auto;
+}
+
+.category-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+.category-name {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Kategori */
+
+@media (max-width: 600px) {
+  .menu-text {
+    display: none;
+  }
+}
+
+/* my answer */
+.cardMY {
+  position: relative;
+  width: 80%;
+  padding: 50px;
+  top: 0;
+  display: -ms-inline-grid;
+  /* grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px; */
+}
+
+.cardMY .card1 {
+  position: relative;
+  background-color: var(--ungu);
+  margin: 30px;
+  padding: 30px;
+  height: 250px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 0 1px 9px rgb(0, 0, 0.08);
+}
+
+.cardMY .card1 .cardName1 {
+  text-align: center;
+  font-size: 0.7rem;
+  margin-top: 5px;
+  font-family: "Poppins";
+  color: var(--blue2);
+}
+
+.cardMY .card1 .iconBox1 {
+  font-size: 1.3rem;
+  position: relative;
+  top: 100%;
+  right: 50px;
+  display: flex;
+}
+
+.pertanyaan1 {
+  padding: 10px;
+  font-size: 12px;
+  border-bottom: 1px solid #000;
+}
+
+/* mytopics
+.list-group {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-group-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0;
+} */
