@@ -13,8 +13,8 @@
 
 
 <body>
-    <header>
-        <nav class="col-12 sticky-top">
+    <header class="sticky-top">
+        <nav class="col-12">
             <div class="logo">
                 <img src="asset/image/logo.png" alt="Logo">
             </div>
@@ -26,10 +26,50 @@
             </div>
             <div class="user">
                 <div class="notification">
-                    <i class="fa-regular fa-bell me-3" title="Notifikasi"></i>
+                    <div class="notification">
+                        <button class="btn position-relative" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-regular fa-bell" title="Notifikasi"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                        </button>
+                        <ul class="dropdown-menu notifi-box" id="box" aria-labelledby="dropdownMenuButton1">
+                            <h5>Notifications</h5>
+                            <li><a class="dropdown-item" href="#">
+                                    <div class="notifi-item">
+                                        <img src="./asset/image/an.png" alt="img">
+                                        <div class="text">
+                                            <h4>Elias Abdurrahman</h4>
+                                            <p>@lorem ipsum dolor sit amet</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">
+                                    <div class="notifi-item">
+                                        <img src="./asset/image/an.png" alt="img">
+                                        <div class="text">
+                                            <h4>Elias Abdurrahman</h4>
+                                            <p>@lorem ipsum dolor sit amet</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">
+                                    <div class="notifi-item">
+                                        <img src="./asset/image/an.png" alt="img">
+                                        <div class="text">
+                                            <h4>Elias Abdurrahman</h4>
+                                            <p>@lorem ipsum dolor sit amet</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="profile">
-                    <i class="fa-solid fa-user me-3" title="Profil"></i>
+                <div class="profil">
+                    <a href="./profil.php">
+                        <img src="./asset/image/an.png" height="33px" width="33px" alt="" title="profile">
+                    </a>
                 </div>
             </div>
         </nav>

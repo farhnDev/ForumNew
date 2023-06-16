@@ -12,7 +12,7 @@
                     <li><a href="./explore.php"><i class="fa-sharp fa-regular fa-compass"></i><span class="menu-text">Explore Topics</span></a></li>
                 </div>
                 <div class="menu-item">
-                    <li><a href="#"><i class="fa-sharp fa-solid fa-question"></i><span class="menu-text">My
+                    <li><a href="./Mytopics.php"><i class="fa-sharp fa-solid fa-question"></i><span class="menu-text">My
                                 Topics</span></a></li>
                 </div>
                 <div class="menu-item">

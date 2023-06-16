@@ -4,7 +4,7 @@
     <?php include 'includes/sidebar.php'; ?>
 
     <div class="explore-content col-10 mt-3">
-        <div class="row">
+        <div class="row mt-5">
             <div class="card m-2 text-white" style="width: 200px;">
                 <img src="asset/image/programming.jpg" class="card-img-top" alt="...">
                 <div class="card-img-overlay">
