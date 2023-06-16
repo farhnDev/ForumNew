@@ -14,7 +14,7 @@
 
 <body>
     <header class="sticky-top">
-        <nav class="col-12 ">
+        <nav class="nav col-12 ">
             <div class="logo">
                 <h4>My Profil</h4>
             </div>
@@ -29,14 +29,55 @@
         <div class="card5" data-tilt>
             <img src="asset/image/an.png" alt="">
             <h2>My Profile</h2>
-            <p>Lorem ipsum dolor sit amet consectetur,
+            <p class="bio">Lorem ipsum dolor sit amet consectetur,
                 adipisicing elit. Molestias minus et quasi, officiis,
                 esse dolorum pariatur obcaecati culpa rem dolores praesentium
                 nulla iusto laborum, animi quaerat ipsa amet! Suscipit,
                 temporibus.</p>
             <div class="edit-profil">
-                <a href="#"><i class="fas fa-user-edit"></i>Edit</a>
-                <a href=""><i class="fas fa-sign-out"></i>Keluar</a>
+                <a href="#" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fas fa-user-edit"></i>Edit</a>
+                <a href="#" class="btn btn-info"><i class="fas fa-sign-out"></i>Keluar</a>
+            </div>
+        </div>
+    </div>
+    <!-- structure modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Header modal -->
+                <div class="modal-header">
+                    <h5 class="modal-title">My Biodata</h5>
+                </div>
+
+                <!-- Konten modal -->
+                <div class="modal-body">
+                    <form action="kursus" method="POST">
+                        <div class="mb-3 ">
+                            <label for="username">Username </label>
+                            <input type="text" class="form-control" id="username" name="username" required>
+                        </div>
+                        <div class="mb-3 ">
+                            <label for="tgl_lahir">Tanggal Lahir </label>
+                            <input type="text" class="form-control" id="tgl_lahir" name="tgl_lahir" required>
+                        </div>
+                        <div class="mb-3 ">
+                            <label for="bio">Bio </label>
+                            <input type="text" class="form-control" id="bio" name="bio" required>
+                        </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group" for="profil">Profile</label>
+                            <input type="file" class="form-control" id="profil" name="profil">
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Footer modal -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <button type="submit" class="btn btn-primary" onclick="save()" id="btn_save">Simpan</button>
+                </div>
+
             </div>
         </div>
     </div>

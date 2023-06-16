@@ -16,3 +16,11 @@ window.addEventListener("scroll", function () {
     navbar.classList.add("scroll");
   }
 });
+
+//modal
+const myModal = document.getElementById("myModal");
+const myInput = document.getElementById("myInput");
+
+myModal.addEventListener("shown.bs.modal", () => {
+  myInput.focus();
+});
