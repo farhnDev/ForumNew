@@ -65,27 +65,3 @@ const myInput = document.getElementById("myInput");
 myModal.addEventListener("shown.bs.modal", () => {
   myInput.focus();
 });
-
-// //sidebarlink
-// const sidebarLinks = document.querySelectorAll(".sidebar-link");
-// // Fungsi penanganan klik untuk tautan sidebar
-// const handleSidebarLinkClick = (event) => {
-//   event.preventDefault(); // Mencegah aksi default
-
-//   const targetUrl = event.target.getAttribute("href"); // Dapatkan URL tujuan dari atribut href
-//   transitionToPage(targetUrl); // Panggil fungsi transisi halaman
-// };
-
-// // Pasang event listener untuk setiap elemen tautan sidebar
-// sidebarLinks.forEach((link) => {
-//   link.addEventListener("click", handleSidebarLinkClick);
-// });
-// // Fungsi transisi halaman
-// const transitionToPage = (targetUrl) => {
-//   // Terapkan efek transisi di sini, misalnya dengan mengubah opacity atau transform
-
-//   // Setelah transisi selesai, arahkan ke halaman baru
-//   setTimeout(() => {
-//     window.location.href = targetUrl;
-//   }, 500); // Ganti nilai 500 dengan durasi transisi yang diinginkan (dalam milidetik)
-// };

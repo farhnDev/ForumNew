@@ -29,7 +29,73 @@
   object-fit: cover;
 } */
 
+/* login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  height: 55%;
+  width: 45%;
+  align-items: center;
+  background-color: #7586df;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(75, 72, 72, 0.359);
+}
 
+.register-container {
+  display: flex;
+  justify-content: center;
+  height: 70%;
+  width: 45%;
+  align-items: center;
+  background-color: #7586df;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(75, 72, 72, 0.359);
+}
+
+.login-image {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.login-image img {
+  max-width: 100%;
+  height: 200px;
+}
+
+.login-form {
+  background-color: #ffff;
+  flex: 1;
+  border-radius: 0px 15px 15px 0px;
+  padding: 20px;
+  height: 100%;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* login */
 nav {
   background-color: #ffff;
   box-shadow: 0 4px 8px 0 rgb(243, 243, 243);
@@ -343,6 +409,10 @@ i {
   .menu-text {
     display: none;
   }
+
+  .register-container {
+    height: 70%;
+  }
 }
 
 /* my answer */
@@ -421,7 +491,7 @@ i {
 /* profil */
 .container3 {
   width: 100%;
-  height: 680px;
+  height: 100vh;
   background-image: url('../image/bckg.jpg');
   background-position: center;
   background-size: cover;
@@ -594,4 +664,5 @@ i {
     opacity: 1;
     transform: scale(1);
   }
+
 }

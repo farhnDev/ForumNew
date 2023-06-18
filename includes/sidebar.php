@@ -5,18 +5,18 @@
         <div class="menu-wrapper">
             <ul class="menu-list">
                 <div class="menu-item">
-                    <li><a href="../user/home_fix.php" class="sidebar-link"><i class="fa-solid fa-house"></i><span class="menu-text">Home</span></a>
+                    <li><a href="../user/home_fix.php"><i class="fa-solid fa-house"></i><span class="menu-text">Home</span></a>
                     </li>
                 </div>
                 <div class="menu-item">
-                    <li><a href="../user/explore.php" class="sidebar-link"><i class="fa-sharp fa-regular fa-compass"></i><span class="menu-text">Explore Topics</span></a></li>
+                    <li><a href="../user/explore.php"><i class="fa-sharp fa-regular fa-compass"></i><span class="menu-text">Explore Topics</span></a></li>
                 </div>
                 <div class="menu-item">
-                    <li><a href="../user/Mytopics.php" class="sidebar-link"><i class="fa-sharp fa-solid fa-question"></i><span class="menu-text">My
+                    <li><a href="../user/Mytopics.php"><i class="fa-sharp fa-solid fa-question"></i><span class="menu-text">My
                                 Topics</span></a></li>
                 </div>
                 <div class="menu-item">
-                    <li><a href="../user/myAnswer.php" class="sidebar-link"><i class="fa-solid fa-message"></i><span class="menu-text">My
+                    <li><a href="../user/myAnswer.php"><i class="fa-solid fa-message"></i><span class="menu-text">My
                                 Answers</span></a></li>
                 </div>
             </ul>

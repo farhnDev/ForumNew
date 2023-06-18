@@ -10,7 +10,7 @@
 <script src="https://cdn.ckeditor.com/ckeditor5/32.0.0/classic/ckeditor.js"></script>
 <script>
     ClassicEditor
-        .create(document.querySelector('#komentar'))
+        .create(document.querySelector('#isi'))
         .then(editor => {
             console.log(editor);
         })

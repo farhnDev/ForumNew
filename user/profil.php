@@ -40,7 +40,7 @@
                 temporibus.</p>
             <div class="edit-profil">
                 <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fas fa-user-edit"></i>Edit</a>
-                <a href="#" class="btn btn-light"><i class="fas fa-sign-out"></i>Logout</a>
+                <a href="#" class="btn btn-light"><i class="fas fa-sign-out"></i>Keluar</a>
             </div>
         </div>
     </div>
@@ -74,8 +74,8 @@
 
                 <!-- Footer modal -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary" onclick="save()" id="btn_save">Save</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <button type="submit" class="btn btn-primary" onclick="save()" id="btn_save">Simpan</button>
                 </div>
 
             </div>
