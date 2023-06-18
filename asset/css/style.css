@@ -542,15 +542,11 @@ i {
   background-color: var(--black1);
 } */
 
-/* .btn:hover {
+.edit-profil .btn:hover {
   background-color: rgba(132, 156, 147, 0.371);
   color: var(--black1);
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
-} */
+
+}
 
 
 /* Modal Madul */
