@@ -1,13 +1,13 @@
 <!-- Asep Cok -->
-<?php include 'includes/header.php'; ?>
+<?php include '../includes/header.php'; ?>
 <div class="row">
-    <?php include 'includes/sidebar.php'; ?>
+    <?php include '../includes/sidebar.php'; ?>
     <div class="content col-8 mt-3">
         <div class="card mt-2" style="border-radius: 15px;top:20px;">
             <div class="card-body p-4">
                 <div class="d-flex text-black">
                     <div class="flex-shrink-0">
-                        <img src="asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
+                        <img src="../asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
                         <p class="mb-1 text-center">Andra Juansa</p>
                     </div>
                     <div class="flex-grow-1 ms-3">
@@ -27,7 +27,7 @@
             <div class="card-body p-4">
                 <div class="d-flex text-black">
                     <div class="flex-shrink-0">
-                        <img src="asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
+                        <img src="../asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
                         <p class="mb-1 text-center">Andra Juansa</p>
                     </div>
                     <div class="flex-grow-1 ms-3">
@@ -47,7 +47,7 @@
             <div class="card-body p-4">
                 <div class="d-flex text-black">
                     <div class="flex-shrink-0">
-                        <img src="asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
+                        <img src="../asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
                         <p class="mb-1 text-center">Andra Juansa</p>
                     </div>
                     <div class="flex-grow-1 ms-3">
@@ -67,7 +67,7 @@
             <div class="card-body p-4">
                 <div class="d-flex text-black">
                     <div class="flex-shrink-0">
-                        <img src="asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
+                        <img src="../asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
                         <p class="mb-1 text-center">Andra Juansa</p>
                     </div>
                     <div class="flex-grow-1 ms-3">
@@ -87,7 +87,7 @@
             <div class="card-body p-4">
                 <div class="d-flex text-black">
                     <div class="flex-shrink-0">
-                        <img src="asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
+                        <img src="../asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
                         <p class="mb-1 text-center">Andra Juansa</p>
                     </div>
                     <div class="flex-grow-1 ms-3">
@@ -107,7 +107,7 @@
             <div class="card-body p-4">
                 <div class="d-flex text-black">
                     <div class="flex-shrink-0">
-                        <img src="asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
+                        <img src="../asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
                         <p class="mb-1 text-center">Andra Juansa</p>
                     </div>
                     <div class="flex-grow-1 ms-3">
@@ -127,7 +127,7 @@
             <div class="card-body p-4">
                 <div class="d-flex text-black">
                     <div class="flex-shrink-0">
-                        <img src="asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
+                        <img src="../asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
                         <p class="mb-1 text-center">Andra Juansa</p>
                     </div>
                     <div class="flex-grow-1 ms-3">
@@ -147,7 +147,7 @@
             <div class="card-body p-4">
                 <div class="d-flex text-black">
                     <div class="flex-shrink-0">
-                        <img src="asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
+                        <img src="../asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
                         <p class="mb-1 text-center">Andra Juansa</p>
                     </div>
                     <div class="flex-grow-1 ms-3">
@@ -167,7 +167,7 @@
             <div class="card-body p-4">
                 <div class="d-flex text-black">
                     <div class="flex-shrink-0">
-                        <img src="asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
+                        <img src="../asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
                         <p class="mb-1 text-center">Andra Juansa</p>
                     </div>
                     <div class="flex-grow-1 ms-3">
@@ -187,7 +187,7 @@
             <div class="card-body p-4">
                 <div class="d-flex text-black">
                     <div class="flex-shrink-0">
-                        <img src="asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
+                        <img src="../asset/image/an.png" alt="Generic placeholder image" class="img-fluid" style="width: 90px; border-radius: 10px;">
                         <p class="mb-1 text-center">Andra Juansa</p>
                     </div>
                     <div class="flex-grow-1 ms-3">
@@ -217,4 +217,4 @@
         </div>
     </div>
 </div>
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>

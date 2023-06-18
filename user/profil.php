@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="../asset/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet" crossorigin="anonymous" />
     <title>Home</title>
 </head>
@@ -15,19 +15,23 @@
 <body>
     <header class="sticky-top">
         <nav class="nav col-12 ">
-            <div class="logo">
-                <h4>My Profil</h4>
+            <div class="profil-back1">
+                <h4 class="blink-text">Wellcome</h4>
             </div>
-            <div class="logo">
-                <a href="home_fix.php">
-                    <h4>Kembali</h4>
+            <div class="profil-back">
+                <a class="ikon-profil" href="../user/home_fix.php">
+                    <i class="fa-sharp fa-solid fa-person-walking-arrow-loop-left" title="Home"></i>
                 </a>
             </div>
         </nav>
     </header>
     <div class="container3">
         <div class="card5" data-tilt>
-            <img src="asset/image/an.png" alt="">
+            <div class="profile-pic-div">
+                <img src="../asset/image/an.png" id="photo">
+                <input type="file" id="file">
+                <label for="file" id="uploadBtn"><i class="fa-solid fa-camera"></i></label>
+            </div>
             <h2>My Profile</h2>
             <p class="bio">Lorem ipsum dolor sit amet consectetur,
                 adipisicing elit. Molestias minus et quasi, officiis,
@@ -35,8 +39,8 @@
                 nulla iusto laborum, animi quaerat ipsa amet! Suscipit,
                 temporibus.</p>
             <div class="edit-profil">
-                <a href="#" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fas fa-user-edit"></i>Edit</a>
-                <a href="#" class="btn btn-info"><i class="fas fa-sign-out"></i>Keluar</a>
+                <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fas fa-user-edit"></i>Edit</a>
+                <a href="#" class="btn btn-light"><i class="fas fa-sign-out"></i>Keluar</a>
             </div>
         </div>
     </div>
@@ -65,10 +69,6 @@
                             <label for="bio">Bio </label>
                             <input type="text" class="form-control" id="bio" name="bio" required>
                         </div>
-                        <div class="input-group mb-3">
-                            <label class="input-group" for="profil">Profile</label>
-                            <input type="file" class="form-control" id="profil" name="profil">
-                        </div>
                     </form>
                 </div>
 
@@ -81,4 +81,4 @@
             </div>
         </div>
     </div>
-    <?php include 'includes/footer.php'; ?>
+    <?php include '../includes/footer.php'; ?>

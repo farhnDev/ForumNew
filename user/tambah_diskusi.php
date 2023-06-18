@@ -1,6 +1,6 @@
-<?php include 'includes/header.php'; ?>
+<?php include '../includes/header.php'; ?>
 <div class="row">
-  <?php include 'includes/sidebar.php'; ?>
+  <?php include '../includes/sidebar.php'; ?>
   <div class=" mt-4 col-9 m-auto">
     <form action="kursus" method="POST">
       <h4 class="text-center">Hai {{nama user}} apa yang ingin kamu tanyakan</h4>
@@ -35,4 +35,4 @@
   </div>
 </div>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>

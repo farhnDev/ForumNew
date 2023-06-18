@@ -1,6 +1,6 @@
-<?php include 'includes/header.php'; ?>
+<?php include '../includes/header.php'; ?>
 <div class="row">
-    <?php include 'includes/sidebar.php'; ?>
+    <?php include '../includes/sidebar.php'; ?>
     <div class="col-10 mytopics-content mt-3">
         <div class="container">
             <div class="row">
@@ -79,4 +79,4 @@
         </div>
     </div>
 </div>
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>

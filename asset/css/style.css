@@ -444,13 +444,52 @@ i {
 }
 
 .card5 img {
-  height: 100px;
-  width: 100px;
+  height: 110px;
+  width: 120px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+
+/* img card */
+.profile-pic-div {
+  height: 110px;
+  width: 120px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid grey;
+}
+
+#photo {
+  height: 100%;
+  width: 100%;
+}
+
+#file {
+  display: none;
+}
+
+#uploadBtn {
+  height: 24px;
+  width: 120px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  color: var(--black1);
+  line-height: 30px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  display: none;
 }
 
 .card h2 {
@@ -463,6 +502,36 @@ i {
   font-size: 18px;
   margin: 10px auto;
   max-width: 330px;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.blink-text {
+  color: var(--black1);
+  display: inline-block;
+  animation: zoomIn 1s;
+}
+
+.ikon-profil {
+  color: #f3f3f5;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.ikon-profil:hover {
+  color: #f3f3f57a;
+}
+
+.ikon-profil i {
+  font-size: 24px;
 }
 
 /* .button {

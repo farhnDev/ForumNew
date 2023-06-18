@@ -1,13 +1,13 @@
-<?php include 'includes/header.php'; ?>
+<?php include '../includes/header.php'; ?>
 
 <div class="row">
-    <?php include 'includes/sidebar.php'; ?>
+    <?php include '../includes/sidebar.php'; ?>
     <!-- cards -->
     <div class="cardMY">
         <div class="card1">
             <div>
                 <div class="userBox">
-                    <img src="asset/image/an.png" alt="" />
+                    <img src="../asset/image/an.png" alt="" />
                 </div>
                 <div class="cardName1">andra juansa</div>
             </div>
@@ -38,7 +38,7 @@
         <div class="card1">
             <div>
                 <div class="userBox">
-                    <img src="asset/image/an.png" alt="" />
+                    <img src="../asset/image/an.png" alt="" />
                 </div>
                 <div class="cardName1">andra junanda</div>
             </div>
@@ -69,7 +69,7 @@
         <div class="card1">
             <div>
                 <div class="userBox">
-                    <img src="asset/image/an.png" alt="" />
+                    <img src="../asset/image/an.png" alt="" />
                 </div>
                 <div class="cardName1">andra janda</div>
             </div>
@@ -100,4 +100,4 @@
     </div>
 </div>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>

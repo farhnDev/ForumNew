@@ -19,8 +19,8 @@
         });
 </script>
 <!-- file js -->
-<script src="asset/js/vanilla-tilt.js"></script>
-<script src="asset/js/main.js"></script>
+<script src="../asset/js/main.js"></script>
+<script src="../asset/js/vanilla-tilt.js"></script>
 </body>
 
 </html>

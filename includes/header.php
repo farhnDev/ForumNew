@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="../asset/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <script src="https://cdn.ckeditor.com/ckeditor5/32.0.0/classic/ckeditor.js"></script>
     <title>Home</title>
 </head>
 
@@ -16,7 +17,7 @@
     <header class="sticky-top">
         <nav class="col-12">
             <div class="logo">
-                <img src="asset/image/logo.png" alt="Logo">
+                <img src="../asset/image/logo.png" alt="Logo">
             </div>
             <div class="search">
                 <label for="search">
@@ -35,7 +36,7 @@
                             <h5>Notifications</h5>
                             <li><a class="dropdown-item" href="#">
                                     <div class="notifi-item">
-                                        <img src="./asset/image/an.png" alt="img">
+                                        <img src="../asset/image/an.png" alt="img">
                                         <div class="text">
                                             <h4>Elias Abdurrahman</h4>
                                             <p>@lorem ipsum dolor sit amet</p>
@@ -45,7 +46,7 @@
                             </li>
                             <li><a class="dropdown-item" href="#">
                                     <div class="notifi-item">
-                                        <img src="./asset/image/an.png" alt="img">
+                                        <img src="../asset/image/an.png" alt="img">
                                         <div class="text">
                                             <h4>Elias Abdurrahman</h4>
                                             <p>@lorem ipsum dolor sit amet</p>
@@ -55,7 +56,7 @@
                             </li>
                             <li><a class="dropdown-item" href="#">
                                     <div class="notifi-item">
-                                        <img src="./asset/image/an.png" alt="img">
+                                        <img src="../asset/image/an.png" alt="img">
                                         <div class="text">
                                             <h4>Elias Abdurrahman</h4>
                                             <p>@lorem ipsum dolor sit amet</p>
@@ -67,8 +68,8 @@
                     </div>
                 </div>
                 <div class="profil">
-                    <a href="./profil.php">
-                        <img src="./asset/image/an.png" height="33px" width="33px" alt="" title="profile">
+                    <a href="../user/profil.php">
+                        <img src="../asset/image/an.png" height="33px" width="33px" alt="" title="profile">
                     </a>
                 </div>
             </div>
