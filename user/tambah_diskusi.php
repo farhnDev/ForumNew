@@ -3,7 +3,7 @@
   <?php include '../includes/sidebar.php'; ?>
   <div class=" mt-4 col-9 m-auto">
     <form action="kursus" method="POST">
-      <h4 class="text-center">Hai {{nama user}} apa yang ingin kamu tanyakan</h4>
+      <h4 class="text-center">Hai {{nama user}} </h4>
 
       <div class="mb-3 ">
         <label for="judul_kursus">Apa yang kamu ingin tanyakan </label>

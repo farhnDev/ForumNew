@@ -205,7 +205,7 @@
         </div>
     </div>
     <div class="col-2 mt-3">
-        <div class="sidebar-kanan"><button type="button" id="tombolId" class="btn btn-primary">+ Mulai Diskusi Baru</button>
+        <div class="sidebar-kanan"><button type="button" id="tombolId" class="btn btn-primary">+ New Discusion</button>
             <ul class="list-group mt-2 me-4">
                 <h5 class="title text-start">Player in Forum</h5>
                 <li class="list-group-item">Rizki Ramadhan</li>
