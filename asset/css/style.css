@@ -531,7 +531,7 @@ i {
   opacity: 0;
 }
 
-input[type="file"]::-webkit-file-upload-button {
+input, i::-webkit-file-upload-button {
   cursor: pointer;
 }
 
