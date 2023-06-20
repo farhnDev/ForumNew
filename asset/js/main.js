@@ -65,3 +65,8 @@ const myInput = document.getElementById("myInput");
 myModal.addEventListener("shown.bs.modal", () => {
   myInput.focus();
 });
+
+//profile
+document.getElementById("images").onchange = function () {
+  document.getElementById("form").submit();
+};

@@ -500,6 +500,41 @@ i {
   justify-content: center;
 }
 
+.upload {
+  width: 125px;
+  position: relative;
+  margin: auto;
+}
+
+.upload img {
+  border-radius: 50%;
+  border: 5px solid #dcdcdc;
+}
+
+.upload .round {
+  position: absolute;
+  background: #0084ff;
+  bottom: 0;
+  right: 0;
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.upload .round input[type="file"] {
+  position: absolute;
+  transform: scale(4);
+  opacity: 0;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+
 .card5 {
   width: 90%;
   max-width: 440px;
@@ -513,7 +548,7 @@ i {
   backdrop-filter: blur;
 }
 
-.card5 img {
+/* .card5 img {
   height: 110px;
   width: 120px;
   border-radius: 50%;
@@ -521,10 +556,10 @@ i {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-}
+} */
 
 /* img card */
-.profile-pic-div {
+/* .profile-pic-div {
   height: 110px;
   width: 120px;
   position: absolute;
@@ -534,18 +569,18 @@ i {
   border-radius: 50%;
   overflow: hidden;
   border: 1px solid grey;
-}
+} */
 
-#photo {
+/* #photo {
   height: 100%;
   width: 100%;
 }
 
 #file {
   display: none;
-}
+} */
 
-#uploadBtn {
+/* #uploadBtn {
   height: 24px;
   width: 120px;
   position: absolute;
@@ -560,7 +595,7 @@ i {
   font-size: 15px;
   cursor: pointer;
   display: none;
-}
+} */
 
 .card h2 {
   font-size: 40px;
