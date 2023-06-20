@@ -1,3 +1,4 @@
+<?php include '../database/koneksi.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -69,7 +70,18 @@
                 </div>
                 <div class="profil">
                     <a href="../user/profil.php">
-                        <img src="../asset/image/an.png" height="33px" width="33px" alt="" title="profile">
+                        <?php $_SESSION["id"] = 1;
+                        $sessionId = $_SESSION["id"];
+
+                        $stmt = $koneksi->prepare("SELECT * FROM users WHERE id_user = :sessionId");
+                        $stmt->bindParam(":sessionId", $sessionId);
+                        $stmt->execute();
+                        $user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+                        $id = $user["id_user"];
+                        $name = $user["nama"];
+                        $image = $user["images"]; ?>
+                        <img src="../img/<?= $image; ?>" width="33px" height="33px" title="<?= $image; ?>">
                     </a>
                 </div>
             </div>
