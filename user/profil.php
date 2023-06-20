@@ -48,7 +48,7 @@
                                 <div class="round">
                                     <input type="hidden" name="id_user" value="<?= $id; ?>">
                                     <input type="hidden" name="nama" value="<?= $name; ?>">
-                                    <input type="file" name="images" id="images" accept=".jpg, .jpeg, .png">
+                                    <input type="file" name="images" id="images" accept=".jpg, .jpeg, .png" title="update profile">
                                     <i class="fa fa-camera" style="color:#fff"></i>
                                 </div>
                             </div>
