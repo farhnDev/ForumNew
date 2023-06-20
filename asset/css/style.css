@@ -500,6 +500,7 @@ i {
   justify-content: center;
 }
 
+/* profile update tgl 20 */
 .upload {
   width: 125px;
   position: relative;
@@ -534,7 +535,7 @@ input[type="file"]::-webkit-file-upload-button {
   cursor: pointer;
 }
 
-
+/* end profil update  tgl 20 */
 .card5 {
   width: 90%;
   max-width: 440px;
